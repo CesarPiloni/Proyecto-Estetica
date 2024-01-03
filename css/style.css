@@ -79,3 +79,11 @@ nav li{
     display:block;
     margin: 0 auto;
 }
+
+.whatsapp {
+    position: fixed;
+    font-size: 50px;
+    right: 5px;
+    bottom: 5px;
+    color: green;
+}
