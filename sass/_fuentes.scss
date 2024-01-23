@@ -1,0 +1,25 @@
+section{
+    font-style: italic;
+    text-align: center;
+}
+h1{
+        font-size: 3rem;
+        font-family: "Hatton-Titulo";
+}
+h2{
+    font-size: 2rem;
+    font-family: "Aileron-Subtitulos";
+}
+p{
+    font-size: 1.5rem;
+    font-family: "Aileron-Parrafos";
+}
+nav{
+    li{
+        display: flex;
+        font-size: 1.5rem;
+        font-style: italic;
+        font-family: "Hatton-Nav";
+        text-align: center;
+    }
+}
