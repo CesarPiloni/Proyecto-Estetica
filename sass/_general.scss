@@ -1,0 +1,74 @@
+/*Tipografia para titulos: Hatton
+Tipografia para subtitulos: Aileron
+Colores:
+#C6B1A5 BEIGE
+#C3AFA6 BEIGE MAS OSCURO
+#865656 ROSA VIEJO OSCURO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$rosaviejo: #865656;
+body{
+    background-color:#C6B1A5 ;
+    nav{
+        .navbar-brand{
+            img{
+                max-width: 80%;
+                min-width: 200px;
+                margin: 15%;
+                border-radius: 100% / 100%;
+                object-fit: cover;
+                box-shadow: 2px -1px 170px 57px #a79891;
+            }
+        }
+        .nav-link{
+            margin: 30%;
+            border-radius: 10%/20%;
+            border: solid 2px $rosaviejo;
+            text-shadow: -6px 0px 5px #a79891;
+        }
+    }
+    .titulo-beige {
+    color: $rosaviejo;
+    text-shadow: -6px 0px 5px rgba(255,255,255,0.6);
+    }
+    .whatsapp {
+        position: fixed;
+        font-size: 50px;
+        right: 20px;
+        bottom: 60px;
+    }
+    .columna img{
+        width: 90%;
+        height: 700px;
+        border-radius: 50% / 50%;
+        object-fit: cover;
+        border: solid 4px $rosaviejo;
+        align-items: center;
+    }
+    .carousel-item{
+        img,video{
+            max-width:1000px;
+            height: 650px;
+            border-radius: 10% / 30%;
+            object-fit: cover;
+            border: solid 4px $rosaviejo;
+            display:block;
+            margin: 0 auto;
+        }
+    }
+    section{
+        h1{
+            @extend .titulo-beige;
+        }
+    }
+    
+}
+.text-center{
+    .img-fluid{
+        border-radius: 10% / 30%;
+        border: solid 4px $rosaviejo;
+    }
+}
