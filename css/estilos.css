@@ -1,4 +1,42 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Aileron-Parrafos";
+  src: url("../Font/Aileron-BlackItalic.otf");
+  font-family: "Aileron-Subtitulos";
+  src: url("../Font/Aileron-LightItalic.otf");
+  font-family: "Hatton-Titulo";
+  src: url("../Font/PP Hatton Bold 700.otf");
+  font-family: "Hatton-Nav";
+  src: url("../Font/PP Hatton Medium 500.otf");
+}
+section {
+  font-style: italic;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Hatton-Titulo";
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Aileron-Subtitulos";
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Aileron-Parrafos";
+}
+
+nav li {
+  display: flex;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: "Hatton-Nav";
+  text-align: center;
+}
+
 /*Tipografia para titulos: Hatton
 Tipografia para subtitulos: Aileron
 Colores:
@@ -58,44 +96,6 @@ body .carousel-item img, body .carousel-item video {
 .text-center .img-fluid {
   border-radius: 10%/30%;
   border: solid 4px #865656;
-}
-
-@font-face {
-  font-family: "Aileron-Parrafos";
-  src: url("../Font/Aileron-BlackItalic.otf");
-  font-family: "Aileron-Subtitulos";
-  src: url("../Font/Aileron-LightItalic.otf");
-  font-family: "Hatton-Titulo";
-  src: url("../Font/PP Hatton Bold 700.otf");
-  font-family: "Hatton-Nav";
-  src: url("../Font/PP Hatton Medium 500.otf");
-}
-section {
-  font-style: italic;
-  text-align: center;
-}
-
-h1 {
-  font-size: 3rem;
-  font-family: "Hatton-Titulo";
-}
-
-h2 {
-  font-size: 2rem;
-  font-family: "Aileron-Subtitulos";
-}
-
-p {
-  font-size: 1.5rem;
-  font-family: "Aileron-Parrafos";
-}
-
-nav li {
-  display: flex;
-  font-size: 1.5rem;
-  font-style: italic;
-  font-family: "Hatton-Nav";
-  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
