@@ -51,6 +51,7 @@ body{
     .carousel-item{
         img,video{
             max-width:1000px;
+            min-width:auto;
             height: 650px;
             border-radius: 10% / 30%;
             object-fit: cover;
